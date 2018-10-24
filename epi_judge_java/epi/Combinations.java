@@ -1,9 +1,10 @@
 package epi;
+
 import epi.test_framework.EpiTest;
 import epi.test_framework.EpiTestComparator;
-import epi.test_framework.LexicographicalListComparator;
 import epi.test_framework.GenericTest;
-import java.util.Collections;
+import epi.test_framework.LexicographicalListComparator;
+
 import java.util.List;
 import java.util.function.BiPredicate;
 public class Combinations {

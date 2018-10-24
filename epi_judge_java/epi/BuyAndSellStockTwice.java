@@ -1,6 +1,8 @@
 package epi;
+
 import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
+
 import java.util.List;
 public class BuyAndSellStockTwice {
   @EpiTest(testDataFile = "buy_and_sell_stock_twice.tsv")
