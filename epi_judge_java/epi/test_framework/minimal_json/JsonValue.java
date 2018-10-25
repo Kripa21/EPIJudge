@@ -1,7 +1,11 @@
 
 package epi.test_framework.minimal_json;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.Serializable;
+import java.io.StringWriter;
+import java.io.Writer;
 
 /**
  * Represents a JSON value. This can be a JSON <strong>object</strong>, an

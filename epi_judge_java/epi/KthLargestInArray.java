@@ -1,8 +1,6 @@
 package epi;
-
 import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
-
 import java.util.List;
 public class KthLargestInArray {
   // The numbering starts from one, i.e., if A = [3,1,-1,2] then

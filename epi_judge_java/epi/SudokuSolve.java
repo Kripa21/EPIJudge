@@ -1,11 +1,13 @@
 package epi;
-
 import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
 import epi.test_framework.TestFailure;
 import epi.test_framework.TimedExecutor;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Set;
 public class SudokuSolve {
   public static boolean solveSudoku(List<List<Integer>> partialAssignment) {
     // TODO - you fill in here.

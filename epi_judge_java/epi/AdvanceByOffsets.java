@@ -1,8 +1,6 @@
 package epi;
-
 import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
-
 import java.util.List;
 public class AdvanceByOffsets {
   @EpiTest(testDataFile = "advance_by_offsets.tsv")
