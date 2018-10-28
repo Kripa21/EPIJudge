@@ -5,8 +5,15 @@ import java.util.List;
 public class AdvanceByOffsets {
   @EpiTest(testDataFile = "advance_by_offsets.tsv")
   public static boolean canReachEnd(List<Integer> maxAdvanceSteps) {
-    // TODO - you fill in here.
-    return true;
+    int end=maxAdvanceSteps.size()-1;
+    int maxReach=maxAdvanceSteps.get(0);
+    for (int i=0;i<=maxReach;i++){
+      maxReach=Math.max(i+maxAdvanceSteps.get(i),maxReach);
+      if(maxReach>=end){
+        return true;
+      }
+    }
+    return false;
   }
 
   public static void main(String[] args) {
